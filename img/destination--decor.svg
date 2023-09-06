@@ -1,0 +1,67 @@
+<svg width="107" height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="107" height="107" fill="#EDEDED"/>
+<g id="Homepage" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="6289" transform="translate(-1300 -1879)" fill="white"/>
+<g id="Frame 29">
+<g id="Frame 28">
+<g id="Group 9236" filter="url(#filter0_ddd_0_1)">
+</g>
+</g>
+</g>
+<g id="Frame 35">
+</g>
+<g id="OBJECTS" clip-path="url(#clip1_0_1)">
+<g id="Group">
+<path id="Vector" d="M12.0265 1.81995L1.82007 12.0264" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M1.82007 1.81995L12.0265 12.0264" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_2">
+<path id="Vector_3" d="M12.0265 48.1638L1.82007 58.3848" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M1.82007 48.1638L12.0265 58.3848" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_3">
+<path id="Vector_5" d="M12.0265 94.5223L1.82007 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M1.82007 94.5223L12.0265 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_4">
+<path id="Vector_7" d="M58.6036 48.1638L48.3972 58.3848" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M48.3972 48.1638L58.6036 58.3848" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_5">
+<path id="Vector_9" d="M58.6036 94.5223L48.3972 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M48.3972 94.5223L58.6036 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_6">
+<path id="Vector_11" d="M105.18 94.5223L94.9736 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M94.9736 94.5223L105.18 104.729" stroke="#FACD49" stroke-width="3.63995" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_ddd_0_1" x="-171" y="-130" width="192" height="262" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="29"/>
+<feGaussianBlur stdDeviation="14.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="65"/>
+<feGaussianBlur stdDeviation="19.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_0_1" result="effect2_dropShadow_0_1"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="116"/>
+<feGaussianBlur stdDeviation="23"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.01 0"/>
+<feBlend mode="normal" in2="effect2_dropShadow_0_1" result="effect3_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="6289" fill="white" transform="translate(-1300 -1879)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="107" height="106.549" fill="white"/>
+</clipPath>
+</defs>
+</svg>
