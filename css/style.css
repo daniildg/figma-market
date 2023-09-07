@@ -1,15 +1,19 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
-body {
+.main {
+  margin: 0;
+  padding: 0;
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
 .overflow__container {
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
@@ -17,12 +21,14 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .center {
   max-width: 1110px;
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .header {
@@ -50,6 +56,8 @@ body {
 .logo__wrp {
   max-width: 146px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -59,23 +67,30 @@ body {
 .logo__img__wrp {
   width: 40px;
   height: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo__name__wrp {
   width: 84px;
   height: 23px;
-  padding-top: 7px;
+  margin: 0;
+  padding: 7px 0 0 0;
 }
 
 .logo__img {
   display: block;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .menu__list {
   max-width: 428px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 64px;
@@ -98,6 +113,8 @@ body {
 }
 
 .sign__link__wrp {
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
@@ -118,8 +135,8 @@ body {
 .promo {
   max-width: 1199px;
   width: 100%;
-  margin-left: 165px;
-  margin-bottom: 64px;
+  margin: 0 0 64px 165px;
+  padding: 0;
   display: flex;
   align-items: center;
 }
@@ -127,6 +144,8 @@ body {
 .promo__content__wrp {
   max-width: 427px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -135,6 +154,7 @@ body {
 
 .promo__btn__top {
   width: 160px;
+  margin: 0;
   padding: 16px 32px;
   text-decoration: none;
   display: flex;
@@ -158,6 +178,8 @@ body {
 .promo__btn__top__icon__wrp, .promo__btn__bottom__icon__wrp, .photos__btn__icon__wrp {
   width: 24px;
   height: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .promo__btn__top__icon__wrp {
@@ -165,9 +187,11 @@ body {
 }
 
 .promo__lead__txt {
-font-size: 69px;
-font-weight: 700;
-line-height: 82.8px;
+  margin: 0;
+  padding: 0;
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 82.8px;
 }
 
 .promo__lead__txt span {
@@ -175,6 +199,8 @@ line-height: 82.8px;
 }
 
 .promo__txt {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 28.8px;
 }
@@ -196,6 +222,7 @@ line-height: 82.8px;
 
 .promo__btn__bottom {
   width: 77px;
+  margin: 0;
   padding: 16px 32px;
   text-decoration: none;
   border-radius: 100px;
@@ -213,6 +240,7 @@ line-height: 82.8px;
 .promo__btn__bottom:last-child {
   width: 117px;
   height: 24px;
+  margin: 0;
   padding: 16px 31px;
   border: 1px solid #EEE;
   background: transparent;
@@ -228,6 +256,7 @@ line-height: 82.8px;
   max-width: 772px;
   width: 100%;
   min-height: 638px;
+  margin: 0;
   padding: 75px 0 0 0;
   position: relative;
 }
@@ -236,6 +265,8 @@ line-height: 82.8px;
   max-width: inherit;
   width: 100%;
   min-height: 287px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/promo--decor--bg.png);
   position: absolute;
   top: 0;
@@ -246,6 +277,7 @@ line-height: 82.8px;
   max-width: 575px;
   width: 100%;
   margin: 0 0 0 91px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -254,6 +286,8 @@ line-height: 82.8px;
 }
 
 .decor__photo {
+  margin: 0;
+  padding: 0;
   width: 272px;
   height: 300px;
 }
@@ -275,6 +309,8 @@ line-height: 82.8px;
 .decor__link {
   width: 32px;
   height: 32px;
+  margin: 0;
+  padding: 0;
   display: block;
   padding: 16px;
   border-radius: 100px;
@@ -296,9 +332,10 @@ line-height: 82.8px;
 
 .photos__link__btn {
   width: 102px;
+  margin: 0;
+  padding: 16px 31px;
   display: inline-flex;
   flex-wrap: wrap;
-  padding: 16px 31px;
   align-items: center;
   gap: 8px;
   border-radius: 100px;
@@ -327,6 +364,8 @@ line-height: 82.8px;
 .partners__decor__left {
   width: 65px;
   height: 169.95px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/partners--decor.png);
   position: absolute;
   top: -55.25px;
@@ -334,6 +373,8 @@ line-height: 82.8px;
 }
 
 .partners__list {
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -341,13 +382,17 @@ line-height: 82.8px;
 }
 
 .partners__el, .partners__link {
-  display: inline-block;
   height: 32px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 
 .header__decor__right {
   width: 500px;
   height: 500px;
+  margin: 0;
+  padding: 0;
   border-radius: 500px;
   opacity: 0.5;
   background: #FACD49;
@@ -359,12 +404,15 @@ line-height: 82.8px;
 }
 
 .services__section__wrp {
+  padding: 0;
   min-height: 443px;
   position: relative;
 }
 
 .services {
   width: 1536px;
+  margin: 0;
+  padding: 0;
   display: flex;
   margin-left: calc(65% - 768px);
   margin-bottom: 64px;
@@ -376,11 +424,14 @@ line-height: 82.8px;
 .services__heading {
   max-width: 444px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: block;
 }
 
 .heading__title {
   margin: 0 0 16px 0;
+  padding: 0;
   font-size: 23px;
   font-weight: 700;
   line-height: 27.6px;
@@ -390,6 +441,8 @@ line-height: 82.8px;
 }
 
 .heading__subtitle {
+  margin: 0;
+  padding: 0;
   font-size: 44px;
   font-weight: 700;
   line-height: 120%;
@@ -399,6 +452,8 @@ line-height: 82.8px;
 .services__list {
   max-width: 1092px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 21px;
@@ -406,6 +461,7 @@ line-height: 82.8px;
 
 .services__el {
   width: 100%;
+  margin: 0;
   padding: 64px;
   display: block;
   border-radius: 32px;
@@ -420,6 +476,8 @@ line-height: 82.8px;
   max-width: 222px;
   width: 100%;
   min-height: 315px;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -427,6 +485,7 @@ line-height: 82.8px;
   width: 64px;
   height: 64px;
   margin: 0 auto 64px auto;
+  padding: 0;
   background-image: url(../img/service--card--one.png);
 }
 
@@ -440,6 +499,7 @@ line-height: 82.8px;
 
 .content__title {
   margin: 0 0 32px 0;
+  padding: 0;
   font-size: 28px;
   font-weight: 700;
   line-height: 33.6px;
@@ -447,19 +507,20 @@ line-height: 82.8px;
 }
 
 .content__txt {
+  margin: 0;
   padding: 0 5px;
   font-size: 18px;
   line-height: 28.8px;
 }
 
-.main {}
-
 .destination {
+  padding: 0;
   margin-bottom: 128px;
   position: relative;
 }
 
 .destination__header {
+  margin: 0;
   padding: 64px 0;
   display: flex;
   justify-content:  space-between;
@@ -469,10 +530,14 @@ line-height: 82.8px;
 .destination__heading__wrp {
   max-width: 476px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header__btn__wrp {
   max-width: 232px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -481,6 +546,8 @@ line-height: 82.8px;
 .section__btn {
   width: 100px;
   height: 100px;
+  margin: 0;
+  padding: 0;
   border-radius: 100px;
   border: 1px solid rgba(25, 24, 37, 0.10);
   background: #FFF;
@@ -506,6 +573,8 @@ line-height: 82.8px;
 
 .destination__list {
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 31px;
@@ -515,11 +584,15 @@ line-height: 82.8px;
 .destination__card__el {
   max-width: 350px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .card__img__wrp {
   width: 100%;
   height: 350px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/card--img--one.png);
 }
 
@@ -534,6 +607,7 @@ line-height: 82.8px;
 .card__content__wrp {
   max-width: 286px;
   width: 100%;
+  margin: 0;
   padding: 32px;
   background: #FFF;
   border-radius: 0px 0px 32px 32px;
@@ -542,10 +616,13 @@ line-height: 82.8px;
 
 .card__title__wrp {
   margin: 0 0 16px 0;
+  padding: 0;
   display: flex;
 }
 
 .card__title, .card__title__price, .card__rating {
+  margin: 0;
+  padding: 0;
   font-size: 23px;
   font-weight: 700;
   line-height: 27.6px;
@@ -561,6 +638,7 @@ line-height: 82.8px;
 
 .card__subtitle {
   margin: 0 0 32px 0;
+  padding: 0;
   font-size: 18px;
   line-height: 28.8px;
   color: rgba(25, 24, 37, 0.75);
@@ -594,6 +672,7 @@ line-height: 82.8px;
 
 .travel {
   margin-bottom: 128.3px;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 42px;
@@ -702,8 +781,6 @@ line-height: 82.8px;
   right: 202px;
 }
 
-
-
 .travel__content {
   max-width: 445px;
   width: 100%;
@@ -723,6 +800,8 @@ line-height: 82.8px;
 
 .travel__spotlight__list {
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -758,6 +837,8 @@ line-height: 82.8px;
 }
 
 .spotlight__content {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 28.8px;
   color: #191825;
@@ -815,7 +896,6 @@ line-height: 82.8px;
 }
 
 .features__card__content {
-  
   width: 100%;
   min-height: 100px;
   display: flex;
