@@ -1,8 +1,3 @@
-/* * {
-  padding: 0;
-  margin: 0;
-} */
-
 .main {
   margin: 0;
   padding: 0;
@@ -54,7 +49,7 @@
 }
 
 .logo__wrp {
-  max-width: 146px;
+  max-width: 142px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -812,6 +807,7 @@
 .spotlight__el {
   width: 144px;
   height: 87px;
+  margin: 0;
   padding: 32px 30px;
   display: block;
   text-align: center;
@@ -830,6 +826,7 @@
 
 .spotlight__number {
   margin: 0 0 16px 0;
+  padding: 0;
   font-size: 35px;
   font-weight: 700;
   line-height: 42px;
@@ -848,8 +845,9 @@
 .travel__decor__ticket {
   width: 48px;
   height: 48px;
-  display: inline-flex;
+  margin: 0;
   padding: 32px;
+  display: inline-flex;
   align-items: center;
   gap: 16px;
   border-radius: 100px;
@@ -867,7 +865,8 @@
 }
 
 .features {
-  margin-bottom: 128px;
+  margin: 0 0 128px 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 42px;
@@ -877,15 +876,20 @@
 .features__content {
   max-width: 540px;
   width: 100%;
+  margin: 0;
+  padding: 0px;
 }
 
 .features__list {
+  margin: 0;
+  padding: 0px;
   list-style: none;
 }
 
 .features__el {
   max-width: 476px;
   width: 100%;
+  margin: 0;
   padding: 32px;
   background: #FFF;
   border-radius: 32px;
@@ -898,6 +902,8 @@
 .features__card__content {
   width: 100%;
   min-height: 100px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -907,6 +913,7 @@
 .features__card__img__wrp {
   width: 48px;
   height: 48px;
+  margin: 0;
   padding: 26px;
   border-radius: 32px;
   background: #FF5722;
@@ -933,10 +940,13 @@
 .features__card__txt__wrp {
   max-width: 329px;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .features__card__lead__txt {
   margin: 0 0 8px 0;
+  padding: 0;
   font-size: 23px;
   font-weight: 700;
   line-height: 27.6px;
@@ -944,6 +954,8 @@
 }
 
 .features__card__txt {
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 28.8px;
 }
@@ -951,14 +963,17 @@
 .feature__decor__photos__wrp {
   width: 443px;
   min-height: 665px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/feature--decor--photo--top.png);
   position: relative;
 }
 
 .feature__decor__widget {
   width: 243px;
-  display: inline-flex;
+  margin: 0;
   padding: 16px 32px;
+  display: inline-flex;
   align-items: center;
   gap: 16px;
   border-radius: 100px;
@@ -981,6 +996,8 @@
   content: '';
   width: 448px;
   height: 272px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/feature--decor--bg.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -994,6 +1011,8 @@
   content: '';
   width: 380px;
   height: 520px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/feature--decor--photo--bottom.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1007,6 +1026,8 @@
 .testimonials__bg__wrp {
   width: 2506.2px;
   height: 958.64px;
+  margin: 0;
+  padding: 0;
   transform: rotate(-9.366deg);
   background-image: url(../img/testimonials--bg.png);
   opacity: 0.1;
@@ -1020,6 +1041,7 @@
   max-width: 1120px;
   width: 100%;
   margin-bottom: 128px;
+  padding: 0;
   display: flex;
   align-items: center;
   position: relative;
@@ -1028,17 +1050,21 @@
 .testimonial__content {
   max-width: 920px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .testimonial__header {
   margin: 0 0 64px 0;
+  padding: 0;
 }
 
 .testimonial__img__wrp {
   width: 128px;
   height: 128px;
   margin: 0 0 64px 0;
+  padding: 0;
   border-radius: 128px;
   background-image: url(../img/testimonials--content--img.png);
 }
@@ -1049,6 +1075,8 @@
 }
 
 .testimonial__img__capture {
+  margin: 0;
+  padding: 0;
   color: rgba(25, 24, 37, 0.75);
   font-size: 23px;
   font-weight: 700;
@@ -1062,12 +1090,12 @@
 }
 
 .testimonial__txt {
+  margin: 0 0 64px 0;
   padding: 0 55px;
-  margin-bottom: 64px;
-  color: rgba(25, 24, 37, 0.75);
   font-size: 23px;
   font-weight: 400;
   line-height: 36.8px;
+  color: rgba(25, 24, 37, 0.75);
 }
 
 .testimonial__img__capture, .testimonial__rating__wrp {
@@ -1103,6 +1131,8 @@
   content: '';
   width: 183.86px;
   height: 176.35px;
+  margin: 0;
+  padding: 0;
   background-image: url(../img/subscription--decor.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -1114,11 +1144,10 @@
 .subscription__header {
   max-width: 962px;
   width: 100%;
+  margin: 0;
   padding: 0 10px;
   text-align: center;
 }
-
-.heading__title {}
 
 .subscription__header .heading__subtitle {
   font-size: 55px;
@@ -1127,6 +1156,8 @@
 .subscription__form {
   max-width: 982px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 64px;
@@ -1150,6 +1181,7 @@
   max-width: 619px;
   width: 100%;
   height: 32px;
+  margin: 0;
   padding: 32px 32px 32px 80px;
   border: none;
   border-radius: 32px;
@@ -1157,14 +1189,17 @@
 }
 
 .subscription__input::placeholder {
+  margin: 0;
+  padding: 0;
   color: rgba(25, 24, 37, 0.75);
 }
 
 .subscription__button {
   width: 235px;
   height: 96px;
-  display: flex;
+  margin: 0;
   padding: 32px 64px;
+  display: flex;
   align-items: center;
   gap: 16px;
   align-self: stretch;
@@ -1215,8 +1250,8 @@
 }
 
 .summary__txt {
+  margin: 0 0 64px 0;
   padding: 0 2px 0 0;
-  margin-bottom: 64px;
   font-size: 23px;
   font-weight: 400;
   line-height: 36.8px;
@@ -1229,6 +1264,8 @@
 
 .social__icon__wrp {
   width: 160px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 32px;
@@ -1237,24 +1274,30 @@
 .social__link {
   width: 32px;
   height: 32px;
+  margin: 0;
+  padding: 0;
   display: block;
 }
 
 .social__link img {
-  display: block;
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .footer__lists__wrp {
   max-width: 679px;
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: flex-start;
   gap: 121px;
 }
 
 .footer__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1262,10 +1305,14 @@
 }
 
 .footer__el {
+  margin: 0;
+  padding: 0;
   display: inline-block;
 }
 
 .list__title {
+  margin: 0;
+  padding: 0;
   font-size: 23px;
   font-weight: 700;
   line-height: 27.6px;
@@ -1273,6 +1320,8 @@
 }
 
 .footer__link, .footer__txt {
+  margin: 0;
+  padding: 0;
   color: rgba(25, 24, 37, 0.75);
   font-size: 18px;
   line-height: 28.8px;
@@ -1281,4 +1330,11 @@
 
 .footer__link span, .footer__txt span {
   text-transform: uppercase;
+}
+
+.meet__list .footer__el:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
