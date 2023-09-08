@@ -15,8 +15,10 @@
 .first__screen__container {
   max-width: 1440px;
   width: 100%;
+  min-height: 890px;
   margin: 0 auto;
   padding: 0;
+  position: relative;
 }
 
 .center {
@@ -130,10 +132,13 @@
 .promo {
   max-width: 1199px;
   width: 100%;
-  margin: 0 0 64px 165px;
+  margin: 0 0 64px 0;
   padding: 0;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 177px;
+  left: 165px;
 }
 
 .promo__content__wrp {
